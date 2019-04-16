@@ -19,10 +19,10 @@ npm i @ntbl/utils --save
 // 导入所有的工具函数
 import utils from '@ntbl/utils'
 
-// 导入模块的所有工具函数
-import functions from '@ntbl/utils/functions'
+// 导入 objects 模块的所有工具函数
+import objects from '@ntbl/utils/objects'
 
-// 导入一个工具函数
+// 导入单独一个工具函数
 import agent from '@ntbl/utils/agent'
 ```
 
