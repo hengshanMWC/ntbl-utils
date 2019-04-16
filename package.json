@@ -1,0 +1,29 @@
+{
+  "name": "@ntbl/utils",
+  "version": "0.0.1",
+  "description": "JavaScript 工具集",
+  "main": "src/utils.cjs.js",
+  "module": "src/utils.es.js",
+  "author": {
+    "name": "夜是美"
+  },
+  "keywords": [
+    "js",
+    "utils"
+  ],
+  "bugs": {
+    "url": "https://github.com/yeshimei/ntbl-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeshimei/ntbl-utils.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.conf.json -t ./node_modules/ink-docstrap/template -R README.md  -d docs"
+  },
+  "devDependencies": {
+    "ink-docstrap": "^1.3.2"
+  },
+  "dependencies": {}
+}
