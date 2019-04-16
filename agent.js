@@ -16,7 +16,7 @@ export default (source, target, keys) => {
   if (!keys) keys = Object.keys(source)
   keys.forEach(name => {
     if (name in source) {
-      const value = target[name]
+      const value = source[name]
       if (typeof value === 'function') {
         target[name] = source[name].bind(source)
       } {
