@@ -8,9 +8,7 @@ const SPECIAL_CHARS_REGEXP = /([\:\-\_ ]+(.))/g
  * @return {String}
  */
 function camelCase(name) {
-  return name.replace(SPECIAL_CHARS_REGEXP, (_, separator, letter, offset) => offset
-    ? letter.toUpperCase()
-    : letter)
+  return name.replace(SPECIAL_CHARS_REGEXP, (_, separator, letter,) => letter.toUpperCase())
 }
 
 export default camelCase
