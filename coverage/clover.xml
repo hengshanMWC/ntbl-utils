@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1555506403548" clover="3.2.0">
+  <project timestamp="1555506403548" name="All files">
+    <metrics statements="63" coveredstatements="51" conditionals="42" coveredconditionals="33" methods="37" coveredmethods="36" elements="142" coveredelements="120" complexity="0" loc="63" ncloc="63" packages="1" files="22" classes="22"/>
+    <file name="addMethod.js" path="D:\awesome\@ntbl\utils\addMethod.js">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="agent.js" path="D:\awesome\@ntbl\utils\agent.js">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="14" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+    </file>
+    <file name="arrays.js" path="D:\awesome\@ntbl\utils\arrays.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="camelCase.js" path="D:\awesome\@ntbl\utils\camelCase.js">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="11" count="4" type="cond" truecount="1" falsecount="1"/>
+    </file>
+    <file name="chunk.js" path="D:\awesome\@ntbl\utils\chunk.js">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+    </file>
+    <file name="combine.js" path="D:\awesome\@ntbl\utils\combine.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="11" count="4" type="stmt"/>
+    </file>
+    <file name="compact.js" path="D:\awesome\@ntbl\utils\compact.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="compose.js" path="D:\awesome\@ntbl\utils\compose.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="12" count="2" type="stmt"/>
+    </file>
+    <file name="curry.js" path="D:\awesome\@ntbl\utils\curry.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+    </file>
+    <file name="defaults.js" path="D:\awesome\@ntbl\utils\defaults.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="difference.js" path="D:\awesome\@ntbl\utils\difference.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="18" count="6" type="stmt"/>
+    </file>
+    <file name="functions.js" path="D:\awesome\@ntbl\utils\functions.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="intersection.js" path="D:\awesome\@ntbl\utils\intersection.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="17" count="15" type="stmt"/>
+    </file>
+    <file name="objects.js" path="D:\awesome\@ntbl\utils\objects.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="only.js" path="D:\awesome\@ntbl\utils\only.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+    </file>
+    <file name="pull.js" path="D:\awesome\@ntbl\utils\pull.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="16" count="4" type="stmt"/>
+    </file>
+    <file name="pullAt.js" path="D:\awesome\@ntbl\utils\pullAt.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="16" count="3" type="stmt"/>
+    </file>
+    <file name="strings.js" path="D:\awesome\@ntbl\utils\strings.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="tailSpain.js" path="D:\awesome\@ntbl\utils\tailSpain.js">
+      <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="4" type="stmt"/>
+      <line num="29" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="15" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+    </file>
+    <file name="toPairs.js" path="D:\awesome\@ntbl\utils\toPairs.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+    <file name="union.js" path="D:\awesome\@ntbl\utils\union.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="17" count="2" type="stmt"/>
+    </file>
+    <file name="uuid.js" path="D:\awesome\@ntbl\utils\uuid.js">
+      <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="31" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
