@@ -30,8 +30,28 @@ import agent from '@ntbl/utils/agent'
 
 目前 utils 支持的模块和工具函数包括：
  
-- functions
-    - agent
-   
 
+- array
+    - combine - 合并多个数组
+    - compact - 去假值 （0, NaN, '', false, undefined, null）
+    - union - 去重
+    - difference - 差集
+    - intersection - 交集
+    - pull - 移除所有与给定值相等的元素
+    - pullAt - 移除所有与给定下标相等的元素
+    - chunk - 数组分块    
+- objects
+    - tailSpain -  对象路径查询
+    - agent - 代理对象的属性与方法
+    - toPairs - 将对象转换为 pairs 数组
+    - only - 对象白名单
+    - default - 混合对象默认值
+- strings
+    - uuid - 生成 uuid 随机字符串
+    - camelCas - 将以下划线、短横线或分号命名的字符串转换为驼峰命名
+- functions
+    - addMethod - 函数重载
+    - curry - 柯里化
+    - compos - 组合
+ 
 工具函数的使用方法，请参考  [API Documentation](https://yeshimei.github.io/ntbl-utils/)

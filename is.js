@@ -1,0 +1,8 @@
+
+
+/**
+ * @namespace is
+ */
+
+export default {
+}

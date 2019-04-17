@@ -1,4 +1,8 @@
 import agent from './agent'
+import toPairs from './toPairs'
+import only from './only'
+import defaults from './defaults'
+import tailSpain from './tailspain'
 
 
 /**
@@ -6,5 +10,9 @@ import agent from './agent'
  */
 
 export default {
-  agent
+  agent,
+  toPairs,
+  only,
+  defaults,
+  tailSpain
 }

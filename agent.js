@@ -1,15 +1,11 @@
 
-
-
-
-
 /**
  * 代理对象的属性与方法
  * @function agent
  * @memberOf objects
- * @param source{object} - 源对象
- * @param target{object} - 目标对象
- * @param [keys=Object.keys(source)]{array} - 需要被代理的属性与方法集合，默认将会代理所有 source 上的属性和方法
+ * @param {object}source - 源对象
+ * @param {object}target - 目标对象
+ * @param {array}[keys=Object.keys(source)] - 需要被代理的属性与方法集合，默认将会代理所有 source 上的属性和方法
  *
  */
 export default (source, target, keys) => {
