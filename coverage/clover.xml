@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1555506403548" clover="3.2.0">
-  <project timestamp="1555506403548" name="All files">
-    <metrics statements="63" coveredstatements="51" conditionals="42" coveredconditionals="33" methods="37" coveredmethods="36" elements="142" coveredelements="120" complexity="0" loc="63" ncloc="63" packages="1" files="22" classes="22"/>
+<coverage generated="1555516555039" clover="3.2.0">
+  <project timestamp="1555516555040" name="All files">
+    <metrics statements="63" coveredstatements="51" conditionals="40" coveredconditionals="32" methods="37" coveredmethods="36" elements="140" coveredelements="119" complexity="0" loc="63" ncloc="63" packages="1" files="22" classes="22"/>
     <file name="addMethod.js" path="D:\awesome\@ntbl\utils\addMethod.js">
       <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <line num="32" count="2" type="stmt"/>
@@ -24,9 +24,9 @@
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
     </file>
     <file name="camelCase.js" path="D:\awesome\@ntbl\utils\camelCase.js">
-      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="11" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="11" count="6" type="stmt"/>
     </file>
     <file name="chunk.js" path="D:\awesome\@ntbl\utils\chunk.js">
       <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
