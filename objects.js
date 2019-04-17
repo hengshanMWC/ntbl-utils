@@ -3,6 +3,7 @@ import toPairs from './toPairs'
 import only from './only'
 import defaults from './defaults'
 import tailSpain from './tailspain'
+import merge from './merge'
 
 
 /**
@@ -14,5 +15,6 @@ export default {
   toPairs,
   only,
   defaults,
-  tailSpain
+  tailSpain,
+  merge
 }

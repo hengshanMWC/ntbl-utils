@@ -1,6 +1,6 @@
 import objects from '../../objects'
 
-const {defaults, agent, tailSpain, toPairs, only} = objects
+const {defaults, agent, tailSpain, toPairs, only, merge} = objects
 
 
 test ('defaults', () => {
@@ -64,5 +64,25 @@ test ('only', () => {
   expect(only({a: 1, b: 2, c: 3}, 'a b d')).toEqual({a: 1, b: 2})
   expect(only({a: 1, b: 2, c: 3}, ['a', 'b'])).toEqual({a: 1, b: 2})
 })
+describe('merge', () => {
+  test('common', () => {
+    let source = { name: 'mwc' }
+    let target = { a: 1, sex: {a: 1, b: 2}, v: ['a','sex'],}
+    let obj = {name: 'mwc', a: 1, sex: {a: 1, b: 2}, v: ['a','sex'],}
+    merge(false, source, target)
+    expect(source).toEqual(obj)
+  })
+  test('booleTrue', () => {
+    let source = { name: 'mwc' }
+    let fn = function(){}
+    fn.param = {direction:false,source: {b:1}, target: {a:1}, a: [1,2,3]}
+    fn.v = 'fn.v'
+    let target = { name: {xing: 'm', name: 'wc'}, a: 1, sex: {a: 1, b: 2}, v: ['a','sex'],}
+    let obj = {param:{direction:false,source: {b:1}, target: {a:1}, a: [1,2,3]},name: 'mwc', a:1, sex: {a: 1, b: 2}, v: 'fn.v',}
+    merge(true, source, fn, target)
+    expect(source).toEqual(obj)
+  })
+})
+
 
 
