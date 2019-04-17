@@ -1,6 +1,6 @@
 # utils
 
-[![GitHub](https://img.shields.io/badge/GitHub-yeshimei-green.svg)](https://github.com/yeshimei/ntbl-utils) [![npm](https://img.shields.io/badge/npm-v0.0.1-blue.svg)](https://www.npmjs.com/package/@ntbl/utils) [![MIT](https://img.shields.io/npm/l/express.svg)](https://github.com/yeshimei/ntbl-utils)
+[![GitHub](https://img.shields.io/badge/GitHub-yeshimei-green.svg)](https://github.com/yeshimei/ntbl-utils) [![npm](https://img.shields.io/badge/npm-v0.0.2-blue.svg)](https://www.npmjs.com/package/@ntbl/utils) [![MIT](https://img.shields.io/npm/l/express.svg)](https://github.com/yeshimei/ntbl-utils)
 
 utils 是一个 JavaScript 工具集。
 
